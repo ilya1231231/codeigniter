@@ -57,3 +57,4 @@ $route['translate_uri_dashes'] = FALSE;
 $route['migrate'] = 'migrate/index';
 $route['news'] = 'news';  //НАЗВАНИЕ КОНТРОЛЛЕРА ОТОБРАЖАЕТСЯ В URL
 $route['news/(:any)'] = 'news/view/$1';  //Можем открывать любые страницы, $1 - помещаем сюда URL обпределенной новости(СЛАГ)
+$route['blog'] = 'blog/blogitems/$1';
